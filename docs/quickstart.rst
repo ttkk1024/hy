@@ -1,5 +1,5 @@
 ==========
-Quickstart
+快速入门
 ==========
 
 .. image:: _static/cuddles-transparent-small.png
@@ -8,9 +8,9 @@ Quickstart
 (Thanks to Karen Rustad for Cuddles!)
 
 
-**HOW TO GET HY REAL FAST**:
+**如何快速学习Hy**:
 
-1. Create a `Virtual Python Environment
+1. 创建 `虚拟Python环境
    <https://pypi.python.org/pypi/virtualenv>`_.
 2. Activate your Virtual Python Environment.
 3. Install `hy from GitHub <https://github.com/hylang/hy>`_ with ``$ pip install git+https://github.com/hylang/hy.git``.
