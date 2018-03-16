@@ -1,5 +1,5 @@
 ========
-Tutorial
+手册
 ========
 
 .. TODO
@@ -9,65 +9,64 @@ Tutorial
 ..  - Blow your mind with macros!
 ..  - Where's my banana???
 
-Welcome to the Hy tutorial!
 
-In a nutshell, Hy is a Lisp dialect, but one that converts its
-structure into Python ... literally a conversion into Python's abstract
-syntax tree!  (Or to put it in more crude terms, Hy is lisp-stick on a
-Python!)
+欢迎来到Hy手册
 
-This is pretty cool because it means Hy is several things:
-
- - A Lisp that feels very Pythonic
- - For Lispers, a great way to use Lisp's crazy powers but in the wide
-   world of Python's libraries (why yes, you now can write a Django
-   application in Lisp!)
- - For Pythonistas, a great way to start exploring Lisp, from the
-   comfort of Python!
- - For everyone: a pleasant language that has a lot of neat ideas!
-
-Now this tutorial assumes you're running Hy on Python 3. So know things
-are a bit different if you're still using Python 2.
+简而言之，Hy是Lisp方言，但是它将它结构转换为Python...自由的转换为
+Python抽象语法树！（或者用更直白的术语来描述，Hy就是建立在Python上的lisp手杖！）
+这将非常的酷因为Hy有几个特点：
+ - Pythonic感觉的Lisp
+ - 对Lisp开发者来说，这不仅可以使用Lisp疯狂的能力，而且可以使用大量的Python库（为什么不这样呢，你可以用lisp写Django程序）
+ - 对Python开发者来说，可以在熟悉的Python环境中，探索Lisp！
+ - 对每个人来说：优雅的语言包含大量简洁的理念！
 
 
-Basic intro to Lisp for Pythonistas
+本手册假设你在Python3上使用Hy。如果你仍在使用Python2，会稍微有点差异
+
+
+针对Python开发者简要介绍Lisp
 ===================================
 
-Okay, maybe you've never used Lisp before, but you've used Python!
+好吧，你可能以前从来没有用过Lisp，但是你一定用过Python！
 
-A "hello world" program in Hy is actually super simple. Let's try it:
+
+在Hy中“hello world”程序实际上超级简单。让我们小试一把：
 
 .. code-block:: clj
 
    (print "hello world")
 
-See?  Easy!  As you may have guessed, this is the same as the Python
-version of::
+怎么样？非常的简单！正如你想象的，程序跟Python版本是一样的
+
+::
 
   print("hello world")
 
-To add up some super simple math, we could do:
+
+做一些超级简单的数学运行，我们可以这样做:
 
 .. code-block:: clj
 
    (+ 1 3)
 
-Which would return 4 and would be the equivalent of:
+
+计算结果返回4，跟下面的计算是等效的：
 
 .. code-block:: clj
 
    1 + 3
 
-What you'll notice is that the first item in the list is the function
-being called and the rest of the arguments are the arguments being
-passed in.  In fact, in Hy (as with most Lisps) we can pass in
-multiple arguments to the plus operator:
+
+
+正如你看到的那样，列表中的第一个元素是调用的函数，其他元素是传入的参数。
+事实上，在hy（跟绝大多数lisp一样）我们可以向加号操作符传入多个参数:
 
 .. code-block:: clj
 
    (+ 1 3 55)
 
-Which would return 59.
+结果返回59.
+
 
 Maybe you've heard of Lisp before but don't know much about it.  Lisp
 isn't as hard as you might think, and Hy inherits from Python, so Hy
