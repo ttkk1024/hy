@@ -68,13 +68,10 @@ Python抽象语法树！（或者用更直白的术语来描述，Hy就是建立
 结果返回59.
 
 
-Maybe you've heard of Lisp before but don't know much about it.  Lisp
-isn't as hard as you might think, and Hy inherits from Python, so Hy
-is a great way to start learning Lisp.  The main thing that's obvious
-about Lisp is that there's a lot of parentheses.  This might seem
-confusing at first, but it isn't so hard.  Let's look at some simple
-math that's wrapped in a bunch of parentheses that we could enter into
-the Hy interpreter:
+你以前可能听说过lisp，但是对它了解不多。lisp可能没有你想象的那么难，而且
+Hy继承于Python，所以Hy是学习lisp很好的方式。对lisp最大的印象可能是它有
+大量的括号。首先让你看着非常的迷惑，但是它没有那么难。让我们看看一些包含
+在括号中的一些数学运算，输入到Hy解释器看看运行结果：
 
 .. code-block:: clj
 
