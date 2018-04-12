@@ -3,7 +3,7 @@
 ;; license. See the LICENSE.
 
 ;; You need to install the requests package first
-
+;;先安装requests包
 (import os.path)
 (import requests)
 
@@ -14,6 +14,8 @@
 ;; We have three concealed members on the hylang organization
 ;; and GitHub only shows public members if the requester is not
 ;; an owner of the organization.
+;;hylang基金会有三位隐蔽成员，如果请求者不是基金会的成员，GitHub只
+;;显示公开成员
 (setv *concealed-members* [(, "aldeka" "Karen Rustad")
                            (, "tuturto" "Tuukka Turto")
                            (, "cndreisbach" "Clinton N. Dreisbach")])
