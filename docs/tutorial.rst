@@ -77,8 +77,8 @@ Hy继承于Python，所以Hy是学习lisp很好的方式。对lisp最大的印�
 
    (setv result (- (/ (+ 1 3 88) 2) 8))
 
-This would return 38.0  But why?  Well, we could look at the equivalent
-expression in python::
+结果将返回38.0.为什么会是这样呢？好吧，让我们看看
+Python的等价表达式::
 
   result = ((1 + 3 + 88) / 2) - 8
 
