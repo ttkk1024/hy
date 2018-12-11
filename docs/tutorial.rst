@@ -84,11 +84,7 @@ Python的等价表达式::
 
 如果你尝试用python计算上面的表达式，
 你可以通过计算每个内部的括号来实现，这个是hy的基本思路。
-让我们首先在python中来练习
-If you were to try to figure out how the above were to work in python,
-you'd of course figure out the results by solving each inner
-parenthesis.  That's the same basic idea in Hy.  Let's try this
-exercise first in Python::
+让我们首先在python中来练习::
 
   result = ((1 + 3 + 88) / 2) - 8
   # 简化为...
